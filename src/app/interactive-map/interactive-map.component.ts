@@ -2,6 +2,8 @@ import { Component, OnInit, ViewChild, ElementRef, AfterViewInit } from '@angula
 import  * as L from 'leaflet';
 import 'mapbox-gl-leaflet';
 
+
+
 @Component({
   selector: 'app-interactive-map',
   templateUrl: './interactive-map.component.html',
@@ -16,13 +18,17 @@ export class InteractiveMapComponent implements OnInit, AfterViewInit {
 
   constructor() { }
 
+  
+
   ngOnInit(): void {
     
   }
   ngAfterViewInit() {
+
       var map = L.map('map').setView([0, 0], 1);
+      
       L.tileLayer('https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=dyQmlIJcLTxhQ3N3uubc', {
-    }).addTo(map); 
+      }).addTo(map); 
   }
 
   

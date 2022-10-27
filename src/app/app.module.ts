@@ -14,7 +14,7 @@ import { InteractiveMapComponent } from './interactive-map/interactive-map.compo
     HeaderComponent,
     ListOfAllCountriesComponent,
     VisitedCountriesComponent,
-    InteractiveMapComponent
+    InteractiveMapComponent,
   ],
   imports: [
     BrowserModule,
