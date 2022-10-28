@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { ListOfAllCountriesComponent } from './list-of-all-countries/list-of-all-countries.component';
 import { VisitedCountriesComponent } from './visited-countries/visited-countries.component';
 import { InteractiveMapComponent } from './interactive-map/interactive-map.component';
+import { ReactMapComponent } from './react-map/react-map.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { InteractiveMapComponent } from './interactive-map/interactive-map.compo
     ListOfAllCountriesComponent,
     VisitedCountriesComponent,
     InteractiveMapComponent,
+    ReactMapComponent,
   ],
   imports: [
     BrowserModule,

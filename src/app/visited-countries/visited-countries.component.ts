@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CountryService } from '../country.service';
-import * as $ from "jquery";
+import $ from "jquery";
 
 @Component({
   selector: 'app-visited-countries',

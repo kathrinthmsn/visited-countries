@@ -1,7 +1,6 @@
-import { Component, OnInit, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import  * as L from 'leaflet';
 import 'mapbox-gl-leaflet';
-
 
 
 @Component({
@@ -12,13 +11,12 @@ import 'mapbox-gl-leaflet';
 export class InteractiveMapComponent implements OnInit, AfterViewInit {
 
   private map: L.Map;
-
+/*
   @ViewChild('map')
-  private mapContainer: ElementRef<HTMLElement>;
+  private mapContainer: ElementRef<HTMLElement>; */
 
   constructor() { }
-
-  
+ 
 
   ngOnInit(): void {
     
